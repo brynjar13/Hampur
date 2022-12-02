@@ -1,0 +1,137 @@
+/*
+Almennt
+*/
+
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-left {
+  transform: rotate(2deg);
+}
+
+.image-right {
+  transform: rotate(-2deg);
+}
+
+.no-decoration {
+  text-decoration: none;
+  border: none;
+}
+
+.index-header {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-header-text {
+  margin-left: 2rem;
+  padding-top: 1rem;
+}
+
+.navbar {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  max-width: 100%;
+  list-style: none;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: solid 3px black;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+/*
+Index section
+*/
+
+.index-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.index-card {
+  padding: 2rem;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  margin-left: auto;
+}
+
+/*
+About sections
+*/
+
+.about-card {
+  display: flex;
+  padding: 2rem;
+  max-width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .about-card {
+    max-width: 100%;
+  }
+}
+
+.about-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading {
+  padding: 2rem;
+}
+
+/*
+Education section
+*/
+
+
+
+/*
+Services section
+*/
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.services-card {
+  grid-column: span 4;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-image {
+  max-width: 100%;
+}
+
+
+
